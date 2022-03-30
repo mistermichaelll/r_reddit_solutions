@@ -52,7 +52,7 @@ model_plots %>%
 ```
 
 # Q2: Given a dataframe like the following, how do we filter out rows not between VALUE1 and VALUE2?
-The user provided a sample dataframe which looked like this:
+OP had some code which was working for a single dataset. They provided a sample dataframe which looked like this:
 
 ```
 # A tibble: 6 × 4
@@ -66,7 +66,7 @@ The user provided a sample dataframe which looked like this:
 6  27.8 0.347  NA                                    1  
 ```
 
-And some R code that looked like this:
+And their filter code which looked like this:
 
 ```r
 tbl[sort(unique(unlist(Map(`:`, grep("VALUE1", tbl$Z), grep("VALUE2", tbl$Z))))),] 
