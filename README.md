@@ -1,5 +1,5 @@
-# r_reddit_solutions
-Contains a list of my solutions to questions asked on the r/rstats subreddit.
+# r/rstats Question Solutions
+I find myself often answering questions that go unanswered on the r/rstats subreddit. I've decided that since I spend a lot of time creating these solutions... it may make sense to collect them all here!
 
 # Q1: "How do I create multiple histograms at the same time?"
 
